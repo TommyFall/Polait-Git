@@ -1,0 +1,112 @@
+/*Boton de conectarse*/
+#connect {
+	position:absolute;
+	top:28px;
+	left:80%;
+}
+
+/*Toda la parte principal*/
+.general {
+	text-align:center;
+	position: relative;
+	top: 90px;
+}
+
+/*Los Dos textarea*/
+.textareas {
+	resize: none;
+	padding:10px;
+	font-size:23px;
+}
+
+/*controlador de visibilidad (funcion de los botones)*/
+.hideParts {
+	visibility: hidden;
+}
+.startHide-write_idea{
+	visibility: hidden;
+}
+.startHide-write_send {
+	display:none;
+}
+.buttonSelected {
+	background-color: #A5A5A5;
+}
+
+/*los botones de "comments" y "write"*/
+.buttons {
+	margin-top:50px;
+	width:300px;
+	height:30px;
+}
+
+/*commentsButton*/
+#comments_write {
+	font-size:20px;
+	resize: none;
+	width:631px;
+	height:81px;
+}
+
+#comments_send {
+	position: relative;
+	bottom: 39.5px;
+	height:86.5px;
+}
+
+/*writeButton*/
+#write_idea {
+	margin-top:10px;
+}
+#write_send {
+	width:300px;
+	height:30px;
+}
+
+/*comentarios*/
+
+
+/*Style*/
+
+body {
+	position:relative;
+	bottom:20px;
+	font-family:rubik;
+	background: #FCFCFC;
+}
+
+.textareas {
+	font-family:rubik;
+	border-radius:30px;
+	background:#FCFCFC;
+	border:1px solid #BBBBBB;
+	outline: none;
+}
+
+#comments_write {
+	font-family:rubik;
+	border-radius:10px;
+	background: #FCFCFC;
+	border:1px solid #BBBBBB;
+	outline: none;
+}
+
+.buttons, #write_send, #comments_send{
+	font-family:rubik;
+	border-radius:7px;
+	outline: none;
+}
+
+#connect {
+	text-decoration:none;
+	color:black;
+}
+
+
+
+	
+
+
+
+
+	
