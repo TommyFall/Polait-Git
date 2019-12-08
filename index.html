@@ -18,26 +18,21 @@
 				<textarea class="textareas" id="idea_display" rows="10" cols="50" maxlength="520" readonly></textarea>
 				
 				<!--Los botones de Comentario y Escribir-->
-				<div>
-					<button id="buttonComments" class="buttons buttonSelected">Comments</button>
-					<button id="buttonWrite" class="buttons">Write</button>
+				<div class = "buttonsContainer">
+					<div id="buttonComments" class="buttons">Comments</div>
+					<div id="buttonWrite" class="buttons">Write</div>
 				</div>
 				
 				<!--writeButton-->
-				<div>
-					<textarea class="textareas startHide-write_idea" id="write_idea" rows="10" cols="50" maxlength="520"></textarea>
-				</div>
-				<div>
-					<button class="startHide-write_send" id="write_send">Send</button>
+				<div class="writeContainer">
+					<textarea class="textareas" id="write_idea" rows="10" cols="50" maxlength="520"></textarea>
+					<div id="write_send">Submit</div>
 				</div>
 				
 				<!--commentsButton-->
-				<div>
-					
-				</div>
-				<div>
-					<textarea id="comments_write" rows="3" cols="50" maxlength="260"></textarea>
-					<button id="comments_send" >Send</button>
+				<div class="commentsContainer">       
+					<textarea class="writes" id="comments_write" rows="4" maxlength="260"></textarea>
+					<div class="writes" id="comments_send">Send</div>
 				</div>
 			</div>
 		<!-------------------------------------------------------------------->	
